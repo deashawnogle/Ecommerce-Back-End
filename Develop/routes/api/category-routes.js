@@ -8,9 +8,7 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Products
   try {
     const data = await Category.findAll({
-      include: [
-        { model: Product }
-      ]
+      include: [{model: Product}]
     })
     res.status(200).json(data)
   } catch (err) {
@@ -39,7 +37,8 @@ router.post('/', async (req, res) => {
   // create a new category
   try {
     const data = await Category.create(req.body)
-    res.status(200).jason(data)
+    res.status(200).json(data)
+    console.log('POST created, data')
   } catch (err) {
     res.status(500).json(err)
   }
