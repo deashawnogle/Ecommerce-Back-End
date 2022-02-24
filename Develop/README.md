@@ -1,4 +1,5 @@
-# Ecomerce-backend
+# Ecommerce Back End
+
 
   ## License
   ------------------
@@ -7,44 +8,38 @@
 
   ## Table of Contents
   - [Description](#description)
-  - [Installation](#installation)
   - [Usage](#usage)
   - [Test](#test)
   - [Github](#github)
   - [Email](#email)
-  - [Repository](repository)
 
+
+## Recorded Video
+<img src ="./assets/Ecommerce Back End.gif">
 
 ##  Description
 ------------------
-Manage employees, job title, deprtments for organize with Node Application
+- Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
 
-## Installation
+Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+
+##  Usage
 ------------------
-Run npm install
-
-## Usage
-------------------
-- MySQL Workbench
-- JAVAscript
-- Node.js
-- console.table
-- inquirer
-- figlet
-- mysql
-
-
+- NPM install dotenv / express / mysql2
+- SQL WorkBench
+- Javascript (async/await)
+- Insomnia
+- Node
 
 ## Test
 ------------------
+* npm run seed
 - npm start
-- mysql -u root -h localhost -p
+
+
 
 ## Contact
 ------------------
 Github account : deashawnogle<br>
 Email : deashawnogle@gmail.com<br>
 Github Repository : <a href="https://github.com/deashawnogle">deashawnogle</a>
-Video Link : <a href ="https://drive.google.com/file/d/1YzlS-Eyv5VLwBEtjvu4M73HWq3f7lxhY/view">Recorded Video</a>
-
-
